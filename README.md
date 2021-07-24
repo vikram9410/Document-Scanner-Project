@@ -15,23 +15,8 @@ step 6 -Apply Perspective transform for mapping, this gives the top view or bird
 As I mention in code the Perspective transform is point sensitive so for finding the exact order of points
 we need to identify the top left, top right, and bottom right, bottom left points.
 
-for example->
-    ____________________________________________ 
-   |                                            |
-   |     (x,y)                     (x+w,y)      |
-   |        .                       .           |
-   |                                            | 
-   |                                            |   
-   |                                            | 
-   |                                            | 
-   |                                            |
-   |                                            |
-   |                                            |
-   |                                            | 
-   |      .                        .            |
-   |   (x,y+h)                  (x+w,y+h)       |
-   |                                            |
-   |____________________________________________|    
+for example->   (x,y) , (x+w,y) , (x,y+h) , (x+w,y+h) 
+    
        
        
     If we add the x and y coordinate of each points and find minimun amd maximun sum coordinates then 
