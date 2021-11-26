@@ -29,7 +29,9 @@ for example->   (x,y) , (x+w,y) , (x,y+h) , (x+w,y+h)
     *  minimum diff coordinate is top right point 
     *  maximum diff coordinate is bottom left point 
     
-    Once we get our points we apply warp perspective and get a scanned image.
+    Once we got our points we apply warp perspective and get a scanned image.
+     
+    Project made by Vikram Singh Rawat.
     
     ************       Thanks for reading      *************
     
